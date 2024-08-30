@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Potter\Name;
 
-abstract class AbstractName 
+abstract class AbstractName implements NameInterface
 {
     abstract public function getName(): string;
     abstract public function hasName(): bool;
